@@ -1,41 +1,132 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">
+  <a href="">Dublin Intercambio</a>
+</h1>
 
-Welcome USER_NAME,
+<div align="center"> 
+[View website in GitHub Pages](https://github.com/......)
+</div>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Note: This is a fictional organisation created for this milestone project.
 
-## Gitpod Reminders
+Dublin Intercambio is a not-for-profit organisation set up to facilitate learners of both Spanish and English to practise what their new found language skills in a real life settings with native speakers. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Dublin Intercambio provides opportunites for people to get together in informal, relaxed settings, overcome the fear that many have of speaking in their target language and meet like minded people.
 
-`python3 -m http.server`
+User goals:
+* To find out how to take part in a language exchange
+* To find other like minded people to practise their language skills with.
+* To  improve their language skills
 
-A blue button should appear to click: *Make Public*,
+Website owers goals:
+* Build awareness of the events.
+* Increase attendance at the events.
+* Create a friendly, relaxed and inviting feel, as attending a language exchange event for the first time can be daunting.
 
-Another blue button should appear to click: *Open Browser*.
+ 
+## UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### User stories
 
-A blue button should appear to click: *Make Public*,
+##### A typical user of this site would:
+* Has an interest in improving their level of Spanish or English
+* Live in the Dublin - or planning a trip to Dublin
+* Speak English (to some degree)
 
-Another blue button should appear to click: *Open Browser*.
+##### This project is the best way to help them achieve these things because:
+* Often language exchange websites are very poorly designed and can seem complicated.
+* Often language exhange website can seem impersonal and uninviting
+* The Dublin Intercambio website is:
+    * Easy to navigate.
+    * Have a warm, friendly and inviting feel to it.
+    * Ensures the important information is easy to find and access.
+    * Encouraging users to attend the events and get involved.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+##### User stories
+1. As a new visitor to the website, I want to know where the events are taking place
+2. As a new visitor to the website, I want to get a sense of what the events will be like
+3. As a new visitor to the website, 
 
-## Updates Since The Instructional Video
+9. As a returning visitor to the website
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+##### Wireframes and mockups: 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
+Add links/images here
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+##### Home
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+##### About
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+##### Gallery
 
---------
 
-Happy coding!
+
+##### Pricing
+
+
+
+##### How to Order
+
+
+
+##### Contact
+
+
+ 
+### Existing Features
+
+
+
+### Features to Implement in future
+
+
+## Technologies Used
+
+
+
+## Testing 
+
+
+## Deployment
+
+
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/DonnaIB/dublin_intercambio), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select 
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
+
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [Project GitHub repository](https://github.com/DonnaIB/dublin_intercambio).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+
+## Credits
+
+### Media
+- Images used in this site were obtained from ......
+
+### Code
+
+### Acknowledgements
+
+Cormac from Tutor Support - who helped me with a styling issue with my nagivation
+
