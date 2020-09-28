@@ -1,3 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700;900&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+
+/* ---------------------------------------- Navigation -------------------------------------*/
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #058E6E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F1BF00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active >.nav-link {
+    color: #058E6E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-bottom: 3px solid #F1BF00;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- Media Queries -------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .navbar-light .navbar-nav .active >.nav-link  {
+    color: #F1BF00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-bottom: none;
+  }
+}
