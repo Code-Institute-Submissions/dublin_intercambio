@@ -1,56 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@400;500;700;900&display=swap");
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #444444;
+  font-family: "Roboto", sans-serif;
+  color: #444444;
 }
 
+h2 {
+    text-align: center;
+    color: #058e6e;
+    padding: 25px;
+}
 
 /* ---------------------------------------- Navigation -------------------------------------*/
 
 .bg-light {
-    background-color: #fff!important;
+  background-color: #fff !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #058E6E;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+  color: #058e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #F1BF00;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+  color: #f1bf00;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.navbar-light .navbar-nav .active >.nav-link {
-    color: #058E6E;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    border-bottom: 3px solid #F1BF00;
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #058e6e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-bottom: 3px solid #f1bf00;
 }
 
+/* ---------------------------------------- Hero Image -------------------------------------*/
 
+#hero-image {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background: url(../images/hero_image.jpg) no-repeat center center;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
 
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.025);
+  }
+}
 
+#hero-text {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: rgba(241, 191, 0, 0.75);
+  position: absolute;
+  top: 360px;
+  left: 75px;
+  width: auto;
+  height: auto;
+}
 
+#hero-text h1,
+h3,p {
+  padding: 15px 25px;
+}
 
+/* ---------------------------------------- Event Section on Home Page -------------------------------------*/
 
+.event-section {
+    display: flex;
+    margin: 0;
+}
 
+.event-teaser {
+  height: 300px;
+  width: 300px;
+  background-color: #f1bf00;
+  border-radius: 50%;
+  justify-content:center;
+  margin: 15px 25px;
+  display: flex;
+  padding-top: 15px;
+}
 
+.event-teaser i {
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
 
+/* ---------------------------------------- Footer -------------------------------------*/
+
+footer {
+  background-color: #aa151b;
+  height: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  color: #ccc;
+}
+
+.fa-facebook {
+  color: #ccc;
+}
+
+.fa-youtube {
+  color: #ccc;
+}
+
+.fa-instagram {
+  color: #ccc;
+}
 
 /* ---------------------------------------- Media Queries -------------------------------------*/
 
 @media only screen and (max-width: 768px) {
-  .navbar-light .navbar-nav .active >.nav-link  {
-    color: #F1BF00;
-    font-family: 'Roboto', sans-serif;
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: #f1bf00;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     border-bottom: none;
   }
+
+#hero-image {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background: url(../images/hero_image_mobile.jpg) no-repeat center center; 
+}
+
+#hero-text {
+  position: absolute;
+  top: 360px;
+  left: 0;
+}
+
 }
