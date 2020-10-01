@@ -6,10 +6,15 @@ body {
   color: #444444;
 }
 
+h1,
 h2 {
-    text-align: center;
-    color: #058e6e;
-    padding: 25px;
+  text-align: center;
+  color: #058e6e;
+  padding: 25px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: #444444;
 }
 
 /* ---------------------------------------- Navigation -------------------------------------*/
@@ -74,16 +79,18 @@ h2 {
 }
 
 #hero-text h1,
-h3,p {
+h3,
+p {
   padding: 15px 25px;
+  color: #fff;
 }
 
 /* ---------------------------------------- Event Section on Home Page -------------------------------------*/
 
 .event-section {
-    display: flex;
-    margin: 0;
-    padding-bottom: 20px;
+  display: flex;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .event-teaser {
@@ -91,7 +98,7 @@ h3,p {
   width: 300px;
   background-color: #f1bf00;
   border-radius: 50%;
-  justify-content:center;
+  justify-content: center;
   margin: 20px 30px;
   display: flex;
   padding-top: 15px;
@@ -99,30 +106,46 @@ h3,p {
 }
 
 .event-teaser i {
-    color: #fff;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .event-teaser h4 {
-    position: absolute; 
-    top: 50%;
-    text-align: center;
-    color: #fff;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
 }
 
 .event-teaser button {
-    position: absolute;
-    top: 75%;
-    text-align: center;
-    color: #aa151b;
-    background-color:#fff;
+  position: absolute;
+  top: 75%;
+  text-align: center;
+  color: #aa151b;
+  background-color: #fff;
 }
 
 .event-teaser .btn:hover {
-    color: #058e6e;
-    text-decoration: none;
+  color: #058e6e;
+  text-decoration: none;
+}
+
+/* ---------------------------------------- About -------------------------------------*/
+
+#about-image {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background: url(../images/about_page_image.jpg) no-repeat center center;
+}
+
+.about p {
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+  padding-bottom: 50px;
 }
 
 /* ---------------------------------------- Footer -------------------------------------*/
@@ -163,6 +186,7 @@ footer {
 
 /* ---------------------------------------- Media Queries -------------------------------------*/
 
+
 @media only screen and (max-width: 768px) {
   .navbar-light .navbar-nav .active > .nav-link {
     color: #f1bf00;
@@ -171,18 +195,37 @@ footer {
     border-bottom: none;
   }
 
-#hero-image {
-  width: 100%;
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background: url(../images/hero_image_mobile.jpg) no-repeat center center; 
+  #hero-image {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/hero_image_mobile.jpg) no-repeat center center;
+  }
+
+  #hero-text {
+    position: absolute;
+    top: 360px;
+    left: 0;
+  }
 }
 
-#hero-text {
-  position: absolute;
-  top: 360px;
-  left: 0;
+@media only screen and (max-width: 1024px) {
+  #about-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/about_page_small.jpg) no-repeat center center;
+  }
 }
 
+@media only screen and (max-width: 420px) {
+  #about-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/about_page_mobile.jpg) no-repeat center center;
+  }
 }
