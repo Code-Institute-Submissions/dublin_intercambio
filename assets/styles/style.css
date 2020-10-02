@@ -256,6 +256,21 @@ input {
     justify-content: center;
 }
 
+/* ---------------------------------------- Contact Page -------------------------------------*/
+
+.modal-title {
+    color: #058e6e;
+}
+
+.modal-body p {
+    color:#444444 ;
+}
+
+.modal-btn {
+    background-color: #058e6e;
+    color: #fff;
+
+}
 /* ---------------------------------------- Footer -------------------------------------*/
 
 footer {
