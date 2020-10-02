@@ -18,7 +18,7 @@ p {
 }
 
 a {
-    color: #0039F0;
+  color: #0039f0;
 }
 /* ---------------------------------------- Navigation -------------------------------------*/
 
@@ -162,11 +162,10 @@ p {
   position: relative;
 }
 
-
 .event-cards {
   height: 500px;
   width: 300px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   justify-content: center;
   margin: 20px 30px;
   display: flex;
@@ -198,17 +197,63 @@ p {
   padding: 0 15px;
 }
 
-/* .event-cards button {
-  position: absolute;
-  top: 75%;
-  text-align: center;
-  color: #aa151b;
-  background-color: #fff;
-} */
-
 .event-cards .btn:hover {
   color: #058e6e;
   text-decoration: none;
+}
+
+/* ---------------------------------------- Contact Page -------------------------------------*/
+
+.contact {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background: url(../images/events_page.jpg) no-repeat center center;
+  display: flex;
+}
+
+#form-section {
+  padding: 30 0;
+  height: 600px;
+  display: flex;
+}
+
+#form-container {
+  color: #fff;
+  background-color: rgba(241, 191, 0, 0.75);
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.form-heading {
+  color: #fff;
+  justify-content: center;
+}
+
+.form-heading .fa { 
+    padding: none !important;
+}
+
+.form-heading i {
+    color: #fff;
+    font-size: 40px;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.contact button {
+    background-color: #fff;
+    color: #058e6e;
+    margin-top: 10px;
+    justify-content: center;
 }
 
 /* ---------------------------------------- Footer -------------------------------------*/
@@ -269,6 +314,11 @@ footer {
     position: absolute;
     top: 360px;
     left: 0;
+  }
+
+  #form-container {
+    width: 90%;
+    margin: auto;
   }
 }
 

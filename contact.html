@@ -63,6 +63,53 @@
   </header>
 
   <body>
+    <section class="contact">
+      <div id="form-container">
+        <div id="form-overview">
+          <h1 class="form-heading">
+            Let's Chat!<i class="fa fa-comments"></i>
+          </h1>
+          <h4 class="sub-heading">
+            Send us a message, we love hearing from you!
+          </h4>
+          <form
+            class="signup-form"
+            method="post"
+            action="#"
+            novalidate="novalidate"
+          >
+            <fieldset>
+              <input
+                id="fname"
+                class="text-input"
+                type="text"
+                name="fname"
+                placeholder="Name:"
+                required
+              />
+              <input
+                id="signup-email"
+                class="text-input"
+                type="email"
+                name="email"
+                placeholder="Email:"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                rows="5"
+                class="form-control"
+                placeholder="Your message..."
+                required
+              ></textarea>
+            </fieldset>
+
+            <button class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
     <!-- ------------------------------------------- Footer --------------------------------------- -->
 
     <footer class="container-fluid">
