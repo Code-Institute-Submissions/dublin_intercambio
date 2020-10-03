@@ -90,10 +90,15 @@ p {
 
 /* ---------------------------------------- Event Section on Home Page -------------------------------------*/
 
+.events-home {
+    display: flex;
+}
+
 .event-section {
   display: flex;
   margin: 0;
   padding-bottom: 20px;
+  justify-content: center;
 }
 
 .event-teaser {
@@ -105,7 +110,6 @@ p {
   margin: 20px 30px;
   display: flex;
   padding-top: 15px;
-  position: relative;
 }
 
 .event-teaser i {
@@ -322,7 +326,7 @@ footer {
     height: 600px;
     background-size: cover;
     background-position: center;
-    background: url(../images/hero_image_mobile.jpg) no-repeat center center;
+    background: url(../images/hero_image_768.jpg) no-repeat center center;
   }
 
   #hero-text {
@@ -355,4 +359,25 @@ footer {
     background-position: center;
     background: url(../images/about_page_mobile.jpg) no-repeat center center;
   }
+}
+
+
+@media only screen and (max-width: 280px) {
+.event-teaser {
+  height: 200px;
+  width: 200px;
+}
+
+.event-teaser i {
+  font-size: 50px;;
+}
+
+.event-teaser h4 {
+  font-size: 15px;;
+}
+
+.event-teaser button {
+  font-size: 60%;
+}
+
 }
