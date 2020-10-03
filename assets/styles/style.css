@@ -18,7 +18,7 @@ p {
 }
 
 a {
-  color: #0039f0;
+  color: #058e6e;
 }
 /* ---------------------------------------- Navigation -------------------------------------*/
 
@@ -91,7 +91,7 @@ p {
 /* ---------------------------------------- Event Section on Home Page -------------------------------------*/
 
 .events-home {
-    display: flex;
+  display: flex;
 }
 
 .event-section {
@@ -225,7 +225,7 @@ p {
 
 #form-container {
   color: #fff;
-  background-color: rgba(241, 191, 0, 0.75);
+  background-color: rgba(241, 191, 0, 0.7);
   width: 50%;
   margin: auto;
   padding: 30px;
@@ -238,42 +238,48 @@ p {
   justify-content: center;
 }
 
-.form-heading .fa { 
-    padding: none !important;
+.form-heading .fa {
+  padding: none !important;
 }
 
 .form-heading i {
-    color: #fff;
-    font-size: 40px;
+  color: #fff;
+  font-size: 40px;
 }
 
-input {
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border-style: none;
+.text-input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-style: none;
+  display: block;
+  width: 100%;
 }
 
 .contact button {
-    background-color: #fff;
-    color: #058e6e;
-    margin-top: 10px;
-    justify-content: center;
+  background-color: #fff;
+  color: #058e6e;
+  margin-top: 10px;
+  justify-content: center;
 }
 
-/* ---------------------------------------- Contact Page -------------------------------------*/
+.skype {
+    padding-top: 10px;
+}
+
+
+/* ---------------------------------------- Contact Page Modal -------------------------------------*/
 
 .modal-title {
-    color: #058e6e;
+  color: #058e6e;
 }
 
 .modal-body p {
-    color:#444444 ;
+  color: #444444;
 }
 
 .modal-btn {
-    background-color: #058e6e;
-    color: #fff;
-
+  background-color: #058e6e;
+  color: #fff;
 }
 /* ---------------------------------------- Footer -------------------------------------*/
 
@@ -361,23 +367,21 @@ footer {
   }
 }
 
-
 @media only screen and (max-width: 280px) {
-.event-teaser {
-  height: 200px;
-  width: 200px;
-}
+  .event-teaser {
+    height: 200px;
+    width: 200px;
+  }
 
-.event-teaser i {
-  font-size: 50px;;
-}
+  .event-teaser i {
+    font-size: 50px;
+  }
 
-.event-teaser h4 {
-  font-size: 15px;;
-}
+  .event-teaser h4 {
+    font-size: 15px;
+  }
 
-.event-teaser button {
-  font-size: 60%;
-}
-
+  .event-teaser button {
+    font-size: 60%;
+  }
 }
