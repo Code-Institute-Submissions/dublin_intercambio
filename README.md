@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center"> 
-[View website in GitHub Pages](https://github.com/......)
+[View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/dublin_intercambio/)
 </div>
 
 Note: This is a fictional organisation created for this milestone project.
@@ -58,30 +58,25 @@ Add links/images here
 
 ##### About
 
-##### Gallery
-
-
-
-##### Pricing
-
-
-
-##### How to Order
-
-
-
 ##### Contact
 
 
- 
 ### Existing Features
-
 
 
 ### Features to Implement in future
 
 
 ## Technologies Used
+- This project uses HTML and CSS programming languages with a little bit of Javascript.
+- Gitpod was used an the IDE for building the site.
+- The project uses **Bootstrap4** to assist with the structure, responsiveness and browswer compatibility of the site. 
+- The project also uses BootstrapCDN to provide icons from **Font Awesome**.
+- The project uses **Google fonts** to style the website fonts.
+- The project uses **jQuery** to reference Javascript needed for the responsive navbar, and for the contact page modal
+- The project uses **Popper,js** reference Javascript needed for the responsive navbar - 
+<!-- - [AutoPrefixer](https://autoprefixer.github.io/)
+    - This project used **AutoPrefixer** to make sure the css code is valid for all browsers. -->
 
 
 
@@ -89,8 +84,6 @@ Add links/images here
 
 
 ## Deployment
-
-
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/DonnaIB/dublin_intercambio), the following steps were taken: 
 1. Log into GitHub. 
@@ -121,12 +114,23 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Credits
 
+### Content
+The content of the site was written by myself but was inspired and influenced by the following site
+* [My language Exchange](https://www.mylanguageexchange.com/)
+* I Will Teach You. Language](https://iwillteachyoualanguage.com/)
+
 ### Media
-- Images used in this site were obtained from ......
+- All images used in this site were obtained from https://www.canva.com/photos/
 
 ### Code
+- Code for my navigation was adapted and cusomtised from a code snippet found in the Bootstrap documentation.
+- Code for the modal used on my contact page was adapted and customised from a demo code snippet on the w3shools website.
 
 ### Acknowledgements
 
-Cormac from Tutor Support - who helped me with a styling issue with my nagivation
+* My color scheme for this site was based on the colors in the Spanish flag and I used a colour scheme from [Scheme Color](https://www.schemecolor.com/spain-flag-colors.php), the specific color combination was created by user Keshav Naidu.
+* Cormac from Tutor Support - who helped me with a styling issue with my nagivation.
+* JymLinx in Slack for helping me with a positioning issue on my home page.
+
+
 
