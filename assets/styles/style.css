@@ -73,7 +73,7 @@ a {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  background-color: rgba(241, 191, 0, 0.75);
+  background-color: rgba(241, 191, 0, 0.7);
   position: absolute;
   top: 360px;
   left: 75px;
@@ -84,7 +84,7 @@ a {
 #hero-text h1,
 h3,
 p {
-  padding: 15px 25px;
+  padding: 5px 15px;
   color: #fff;
 }
 
@@ -158,6 +158,8 @@ p {
 .about h3 {
     color: #058e6e;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .list li {
@@ -300,6 +302,7 @@ p {
 footer {
   background-color: #aa151b;
   height: auto;
+  margin-top: 40px;
 }
 
 .fa {
