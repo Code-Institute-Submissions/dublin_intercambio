@@ -173,6 +173,9 @@ p {
   width: 1em;
   margin-left: -1em}
 
+#last-paragraph {
+    margin-bottom: 40px;
+}
 /* ---------------------------------------- Events Page -------------------------------------*/
 
 .events {
@@ -184,9 +187,12 @@ p {
   display: flex;
 }
 
+.event-row {
+    margin-top: 150px;
+}
+
 .event-cards {
   height: 500px;
-  /* min-width: 400px; */
   background-color: rgba(255, 255, 255, 0.9);
   justify-content: center;
   margin: 20px 30px;
@@ -283,26 +289,11 @@ p {
   padding-top: 10px;
 }
 
-/* ---------------------------------------- Contact Page Modal -------------------------------------*/
-
-/* .modal-title {
-  color: #058e6e;
-}
-
-.modal-body p {
-  color: #444444;
-}
-
-.modal-btn {
-  background-color: #058e6e;
-  color: #fff;
-} */
 /* ---------------------------------------- Footer -------------------------------------*/
 
 footer {
   background-color: #aa151b;
   height: auto;
-  margin-top: 40px;
 }
 
 .fa {
@@ -388,6 +379,10 @@ footer {
     background-position: center;
     background: url(../images/about_page_small.jpg) no-repeat center center;
   }
+
+  .event-row {
+    margin-top: 0;
+}
 
    .event-cards {
     min-width: 400px;
