@@ -4,7 +4,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #444444;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 h1,
@@ -61,6 +61,8 @@ a {
   animation-fill-mode: forwards;
 }
 
+
+
 @keyframes hero-zoom {
   from {
     transform: scale(1);
@@ -87,6 +89,10 @@ h3,
 p {
   padding: 5px 15px;
   color: #fff;
+}
+
+.hero-p-first {
+    margin-bottom: 0;
 }
 
 /* ---------------------------------------- Event Section on Home Page -------------------------------------*/
@@ -157,25 +163,26 @@ p {
 }
 
 .about h3 {
-    color: #058e6e;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
+  color: #058e6e;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .list li {
-    list-style: none;
+  list-style: none;
 }
 
 .list li::before {
-  content: "◦"; 
+  content: "◦";
   color: #058e6e;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
-  margin-left: -1em}
+  margin-left: -1em;
+}
 
 #last-paragraph {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 /* ---------------------------------------- Events Page -------------------------------------*/
 
@@ -189,7 +196,7 @@ p {
 }
 
 .event-row {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .event-cards {
@@ -339,12 +346,11 @@ footer {
 
   .event-row {
     margin-top: 0;
-}
-
-   .event-cards {
-    min-width: 400px;
   }
 
+  .event-cards {
+    min-width: 400px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -390,8 +396,6 @@ footer {
   }
 }
 
-
-
 @media only screen and (max-width: 420px) {
   #about-image {
     width: 100%;
@@ -405,7 +409,7 @@ footer {
     min-width: 250px;
   }
 
-    .event-cards i {
+  .event-cards i {
     font-size: 50px;
   }
 
@@ -416,7 +420,6 @@ footer {
   .event-cards h4 {
     font-size: 15px;
   }
-
 }
 
 @media only screen and (max-width: 280px) {
