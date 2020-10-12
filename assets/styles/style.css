@@ -22,7 +22,7 @@ a {
   color: #058e6e;
 }
 
-.container-fluid {
+.container{
   overflow: hidden;
 }
 /* ---------------------------------------- Navigation -------------------------------------*/
@@ -367,7 +367,7 @@ footer {
     width: 100%;
     background-size: cover;
     background-position: center;
-    background: url(../images/hero_image_768.jpg) no-repeat center center;
+    background: url(../images/hero_image_md.jpg) no-repeat center center;
   }
 
   #hero-text {
