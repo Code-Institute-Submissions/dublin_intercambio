@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="">Dublin Intercambio</a>
+  <a href="https://donnaib.github.io/dublin_intercambio/">Dublin Intercambio</a>
 </h1>
 
 ![Dublin intercambio](assets/documentation/additional_images/multi_device_view.jpg)
@@ -157,7 +157,6 @@ home page fo the site.
 * A responsive, collapsible navigation bar, allowing users to easily navigate the site on any device.
 * A responsive footer with social media links. allowing users to easily connect with Dublin Intercambio via social media. Each link opens in a new tab.
 
-
 ### Possible Features to Implement in Future
 - Adding Spanish translations for users who maybe don't have an intermediate level of English yet.
 - Adding a blog with language learning tips and stories.
@@ -173,8 +172,6 @@ home page fo the site.
 - The project uses **jQuery** to reference Javascript needed for the responsive navbar.
 - The project uses **Popper,js** reference Javascript needed for the responsive navbar.
 
-
-
 ## Testing 
 I tested the site in the following ways:
 
@@ -184,7 +181,7 @@ live devices, including but not limted to iPhone, iPad, MacBook Pro.
 2. I also tested my code using the [W3C Validator Tools](https://validator.w3.org/) for both my HTML and CSS.  Running my code through these tools highlighted a few issues with syntax 
 which were fixed at the time and pushed as bug fixes.
 
-### Test Cases
+### Specific Test Cases
 
 Events Teasers:
 1. On a device with a screen size of 768px or smaller, navigate to the Home page of the site, scroll down to see the event section with the yellow circular event teasers.
@@ -215,7 +212,7 @@ To clone this project from GitHub:
 1. Follow this link to the [Project GitHub repository](https://github.com/DonnaIB/dublin_intercambio).
 2. Under the repository name, click 'Code'
 
-!['Clone'](assets/readme_images/code_button.jpg)
+!['Code button'](assets/documentation/additional_images/code_button.jpg)
 
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
 4. In your local IDE open Git Bash.
@@ -231,7 +228,7 @@ git clone https://github.com/DonnaIB/dublin_intercambio.git
 ### Content
 The content of the site was written by myself but was inspired and influenced by the following sites:
 * [My language Exchange](https://www.mylanguageexchange.com/)
-* I Will Teach You. Language](https://iwillteachyoualanguage.com/)
+* [I Will Teach You. Language](https://iwillteachyoualanguage.com/)
 
 ### Media
 - All images used in this site were obtained from https://www.canva.com/photos/
@@ -245,7 +242,7 @@ The content of the site was written by myself but was inspired and influenced by
 * Thank you to Cormac from Tutor Support - who helped me with a styling issue with my nagivation.
 * Thank you to JymLinx in Slack for helping me with a positioning issue on my home page.
 * I refered to w3.org to assist with the styling of my bullet points.
-* Thank you to JimLinx & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention
+* Thank you to JimLinx, Paul Loy & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention
 to a bug on the contact page that was subsequently fixed. 
 * I refered to AJ Greave's sample README to help structure this README file.
 
