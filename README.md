@@ -2,17 +2,30 @@
   <a href="">Dublin Intercambio</a>
 </h1>
 
-![Dublin intercambio](assets/readme_images/multi_device_view.jpg)
+![Dublin intercambio](assets/documentation/additional_images/multi_device_view.jpg)
 
-<div align="center"> 
 [View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/dublin_intercambio/)
-</div>
 
-Note: This is a fictional organisation created for this milestone project.
 
-Dublin Intercambio is a not-for-profit organisation set up to facilitate learners of both Spanish and English to practise what their new found language skills in a real life settings with native speakers. 
+*Note: This is a fictional organisation created for this milestone project.*
+## Introduction
 
-Dublin Intercambio provides opportunites for people to get together in informal, relaxed settings, overcome the fear that many have of speaking in their target language and meet like minded people.
+Dublin Intercambio is a not-for-profit organisation set up to facilitate learners of both Spanish and English to practise what their 
+new found language skills in a real life settings with native speakers. 
+
+Dublin Intercambio provides opportunites for people to get together in informal, relaxed settings, overcome the fear that many have 
+of speaking in their target language and meet like minded people.
+
+## Scope 
+
+Create a simple, intuitive, and responsive website for Dublin Intercambio events. The site should be no more than 4 pages long and will 
+be a simple brochure website, providing information in a clear and structured that is easily understandable to users.  The structure should 
+adhere to convetion and be simple and intuitive, ensuring the user always knows, where they are, how they got there and how to get back to 
+where they started.
+
+The design should create a warm and welcoming feel, creating the atmosphere that Dublin Intercambio pride themselves on at their live events.
+
+Any addition features or functionaly are out of scope at this stage.
 
 User goals:
 * To find out how to take part in a language exchange
@@ -51,9 +64,56 @@ Website owers goals:
 5. AS a returning visitor to the website, I want to aquire the details for the virtual event.
 
 
-##### Wireframes and mockups: 
+### Design (Wireframes and Mockups): 
 
-Add links/images here
+After coming up with the concept, mapping out the scope of the site, and working through the user stories and turned my attention to the layout. I began the process of creating 
+wireframes with good old fashioned pen and paper to get a very rough skeleton of the site to start giving form to the agreed function.
+
+With a basic outline I moved to Balsamiq to create more detailed Wireframes for the site. 
+
+### Wireframes
+
+#### Home Page
+![Home page wireframe](assets/documentation/wireframes/home.png)
+
+#### About Page
+![About page wireframe](assets/documentation/wireframes/about.png)
+
+#### Events Page
+![Events page wireframe](assets/documentation/wireframes/events.png)
+
+#### Contact Page
+![Contact page wireframe](assets/documentation/wireframes/contact.png)
+
+
+After creating the wireframes to create the structure, I moved on to creating mockups using powerpoint to focus on the look and feel of the site as this was
+an important element of the prject.
+
+The inspiration for the color theme of the website was born from the combination of the warm and friendly atmosphere that was required and 
+also from the Spanish flag.  I wanted to harness the Spanish connection and influence with the project.   
+
+While I am aware that yellow can sometimes be a problematic colour, it was an important element of the design due the fact that it is 
+a key colour of the Spansih flag. With this in mind special attention was given to testing the contract of the white text against the yellow
+backgrounds to ensure readability.
+
+
+### Mockups
+![Mobile view mockup](assets/documentation/mockups/mobile_view.png)
+
+![Mobile view mockup](assets/documentation/mockups/mobile_view2.png)
+
+![Home page mockup](assets/documentation/mockups/home.png)
+
+![Home page 2 mockup](assets/documentation/mockups/home2.png)
+
+![About page mockup](assets/documentation/mockups/home.png)
+
+![Events page mockup](assets/documentation/mockups/events.png)
+
+![Contact page mockup](assets/documentation/mockups/contact.png)
+
+During the build I stuck closely to the above wireframes and mockups, only make small adjustments here and there to colour or layout, to 
+optimise the site.
 
 ## Features
 
@@ -90,7 +150,7 @@ requests.
 
 NOTE: As this is for a milestone 1 project I have left the method and post values blank as to create a working form would be beyond the scope of this project.
 
-### Existing 
+### Site Features 
 Every page on this site also incorporates the following features:
 * A logo in the top left hand corner, that not only forms part of the branding and design of the site but also as is consitant with a users expectations, clicking the logo will return the user to the 
 home page fo the site.
@@ -104,7 +164,7 @@ home page fo the site.
 - Adding booking system for the online events as those numbers are restricted.
 - Adding GDPR compliant Privacy and Cookie polices.
 
-## Technologies Used
+## Technologies Used for building this site
 - This project uses HTML and CSS programming languages with a little bit of Javascript.
 - Gitpod was used an the IDE for building the site.
 - The project uses **Bootstrap4** to assist with the structure, responsiveness and browswer compatibility of the site. 
@@ -124,15 +184,17 @@ live devices, including but not limted to iPhone, iPad, MacBook Pro.
 2. I also tested my code using the [W3C Validator Tools](https://validator.w3.org/) for both my HTML and CSS.  Running my code through these tools highlighted a few issues with syntax 
 which were fixed at the time and pushed as bug fixes.
 
+### Test Cases
+
 Events Teasers:
-    1. On a device with a screen size of 768px or smaller, navigate to the Home page of the site, scroll down to see the event section with the yellow circular event teasers.
-    2. Click the "details' button on the Friday event, verify that you are taken to the correct part of the events page, that is relevant to the Friday event.
+1. On a device with a screen size of 768px or smaller, navigate to the Home page of the site, scroll down to see the event section with the yellow circular event teasers.
+2. Click the "details' button on the Friday event, verify that you are taken to the correct part of the events page, that is relevant to the Friday event.
 
 Contact form:
-    1. Navigate to the "Contact" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that is accepted. (Please note as this is a milestone 1 project, the form is not fullying working and therefore the data is not submitted)
+1. Navigate to the "Contact" page
+2. Try to submit the empty form and verify that an error message about the required fields appears
+3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+4. Try to submit the form with all inputs valid and verify that is accepted. (Please note as this is a milestone 1 project, the form is not fullying working and therefore the data is not submitted)
 
 ## Deployment
 
