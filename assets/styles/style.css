@@ -101,6 +101,7 @@ p {
 
 .events-home {
   display: flex;
+  justify-content: center;
 }
 
 .event-section {
