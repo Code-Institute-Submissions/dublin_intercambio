@@ -2,7 +2,7 @@
   <a href="https://donnaib.github.io/dublin_intercambio/">Dublin Intercambio</a>
 </h1>
 
-![Dublin intercambio](assets/documentation/additional_images/multi_device_view.jpg)
+![Dublin intercambio](documentation/additional_images/multi_device_view.jpg)
 
 [View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/dublin_intercambio/)
 
@@ -28,8 +28,8 @@ The design should create a warm and welcoming feel, creating the atmosphere that
 Any addition features or functionaly are out of scope at this stage.
 
 User goals:
+* To find language exchange events in Dublin
 * To find out how to take part in a language exchange
-* To find other like minded people to practise their language skills with.
 * To improve their language skills
 
 Website owers goals:
@@ -74,16 +74,16 @@ With a basic outline I moved to Balsamiq to create more detailed Wireframes for 
 ### Wireframes
 
 #### Home Page
-![Home page wireframe](assets/documentation/wireframes/home.png)
+![Home page wireframe](documentation/wireframes/home.png)
 
 #### About Page
-![About page wireframe](assets/documentation/wireframes/about.png)
+![About page wireframe](documentation/wireframes/about.png)
 
 #### Events Page
-![Events page wireframe](assets/documentation/wireframes/events.png)
+![Events page wireframe](documentation/wireframes/events.png)
 
 #### Contact Page
-![Contact page wireframe](assets/documentation/wireframes/contact.png)
+![Contact page wireframe](documentation/wireframes/contact.png)
 
 
 After creating the wireframes to create the structure, I moved on to creating mockups using powerpoint to focus on the look and feel of the site as this was
@@ -98,19 +98,19 @@ backgrounds to ensure readability.
 
 
 ### Mockups
-![Mobile view mockup](assets/documentation/mockups/mobile_view.png)
+![Mobile view mockup](documentation/mockups/mobile_view.png)
 
-![Mobile view mockup](assets/documentation/mockups/mobile_view2.png)
+![Mobile view mockup](documentation/mockups/mobile_view2.png)
 
-![Home page mockup](assets/documentation/mockups/home.png)
+![Home page mockup](documentation/mockups/home.png)
 
-![Home page 2 mockup](assets/documentation/mockups/home2.png)
+![Home page 2 mockup](documentation/mockups/home2.png)
 
-![About page mockup](assets/documentation/mockups/home.png)
+![About page mockup](documentation/mockups/home.png)
 
-![Events page mockup](assets/documentation/mockups/events.png)
+![Events page mockup](documentation/mockups/events.png)
 
-![Contact page mockup](assets/documentation/mockups/contact.png)
+![Contact page mockup](documentation/mockups/contact.png)
 
 During the build I stuck closely to the above wireframes and mockups, only make small adjustments here and there to colour or layout, to 
 optimise the site.
@@ -166,11 +166,12 @@ home page fo the site.
 ## Technologies Used for building this site
 - This project uses HTML and CSS programming languages with a little bit of Javascript.
 - Gitpod was used an the IDE for building the site.
-- The project uses **Bootstrap4** to assist with the structure, responsiveness and browswer compatibility of the site. 
-- The project also uses BootstrapCDN to provide icons from **Font Awesome**.
-- The project uses **Google fonts** to style the website fonts.
-- The project uses **jQuery** to reference Javascript needed for the responsive navbar.
-- The project uses **Popper,js** reference Javascript needed for the responsive navbar.
+- **Bootstrap4** was used to assist with the structure, responsiveness and browswer compatibility of the site. 
+- BootstrapCDN was used to provide icons from **Font Awesome**.
+- **Google fonts** was used to style the website fonts.
+- **jQuery** to reference Javascript needed for the responsive navbar.
+- **Popper,js** reference Javascript needed for the responsive navbar.
+- **TinyPNG** was used to reduce the size of the images to help with load time.
 
 ## Testing 
 I tested the site in the following ways:
@@ -181,7 +182,18 @@ live devices, including but not limted to iPhone, iPad, MacBook Pro.
 2. I also tested my code using the [W3C Validator Tools](https://validator.w3.org/) for both my HTML and CSS.  Running my code through these tools highlighted a few issues with syntax 
 which were fixed at the time and pushed as bug fixes.
 
-### Specific Test Cases
+### User Story Test Cases
+1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
+
+2. As a new visitor to the website, I want to get a sense of what the language exchange will be like.
+
+3. As a new visitor to the website, I want to ask to join the online event.
+
+4. As a returning visitor to the website, I want to easily remind myself where and when the events are.
+
+5. AS a returning visitor to the website, I want to aquire the details for the virtual event.
+
+### Functionaly Test Cases
 
 Events Teasers:
 1. On a device with a screen size of 768px or smaller, navigate to the Home page of the site, scroll down to see the event section with the yellow circular event teasers.
@@ -212,7 +224,7 @@ To clone this project from GitHub:
 1. Follow this link to the [Project GitHub repository](https://github.com/DonnaIB/dublin_intercambio).
 2. Under the repository name, click 'Code'
 
-!['Code button'](assets/documentation/additional_images/code_button.jpg)
+!['Code button'](documentation/additional_images/code_button.jpg)
 
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
 4. In your local IDE open Git Bash.
