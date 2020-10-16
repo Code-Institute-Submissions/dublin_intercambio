@@ -94,7 +94,7 @@ also from the Spanish flag.  I wanted to harness the Spanish connection and infl
 
 While I am aware that yellow can sometimes be a problematic colour, it was an important element of the design due the fact that it is 
 a key colour of the Spansih flag. With this in mind special attention was given to testing the contract of the white text against the yellow
-backgrounds to ensure readability.
+backgrounds to ensure readability. This was discussed at length with my tutor at all stages of this project to ensure the right balance was met.
 
 
 ### Mockups
@@ -176,22 +176,27 @@ home page fo the site.
 ## Testing 
 I tested the site in the following ways:
 
-1. Initially I used the inspector tool to test the site in all the screen sizes and devices available in the Chrome developer tool.  In addition to this I also tested it on 
-live devices, including but not limted to iPhone, iPad, MacBook Pro. 
+1. Initially I used the inspector tool to test the site in all the screen sizes and devices available in the Chrome developer tool.  In addition to this I also tested it on live devices, including but not limted to iPhone, iPad, MacBook Pro, MotoG7. 
 
-2. I also tested my code using the [W3C Validator Tools](https://validator.w3.org/) for both my HTML and CSS.  Running my code through these tools highlighted a few issues with syntax 
-which were fixed at the time and pushed as bug fixes.
+2. I also tested my code using the validator tools for both my HTML [W3C HTML Validator Tool](https://validator.w3.org/) and CSS [W3C CSS Validator Tool](https://validator.w3.org/). Running my code through these tools highlighted a few issues with syntax which were fixed at the time and pushed as bug fixes.
+
+Screen shots of the validator results can be viewed below.  As you can seee from the screen shot there was only one error detected.  I had discussed this point with my mentor previously and he advised me to add this particular style to overide a style that was being added by the user agent stylesheet that was adding.  Adding this class fixed the white space issue but is showing up as an error in the CSS validator [W3C CSS Validator Tool](https://validator.w3.org/).
 
 ### User Story Test Cases
 1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
+There are two ways for a user to find this information, firstly there is the basic information on the home page in the events section, which provides the date, time and name of the venue. The user can then click on the more details button to access more information about the event. The user could also chose to client the events page from the navigation bar and go directly to the events page.
 
 2. As a new visitor to the website, I want to get a sense of what the language exchange will be like.
+The imagery used through the site is intended to give the users a feel of the open and freindly sense of the live events.
 
 3. As a new visitor to the website, I want to ask to join the online event.
+There is infomration on the events page that details how a user can join the events. In the case of an online event the user needs to contact Dublin Intercambio and there is a link from the events page through to the contact form.  Alternatively the user can chose to navigate directly to the contact page using the navigation bar and clicking on contact.
 
 4. As a returning visitor to the website, I want to easily remind myself where and when the events are.
+Having the event teasters, the basic information on the home page it allows users who are returning to the date, time and location at a glance.  Alternatively, they can chose events from the navigation menu and go directly to the events page.
 
-5. AS a returning visitor to the website, I want to aquire the details for the virtual event.
+5. As a returning visitor to the website, I want to aquire the details for the virtual event.
+A returning visitor may know that they have to contact Dublin Intercambio for joining details so can skip straight to the contact page to get in touch. Alternatively if they need reminding they can visit the events page and read the details on the virtual meeting events card.
 
 ### Functionaly Test Cases
 
