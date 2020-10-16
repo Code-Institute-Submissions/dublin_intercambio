@@ -182,6 +182,14 @@ I tested the site in the following ways:
 
 Screen shots of the validator results can be viewed below.  As you can seee from the screen shot there was only one error detected.  I had discussed this point with my mentor previously and he advised me to add this particular style to overide a style that was being added by the user agent stylesheet that was adding.  Adding this class fixed the white space issue but is showing up as an error in the CSS validator [W3C CSS Validator Tool](https://validator.w3.org/).
 
+### HTML reports 
+* ![HTML Validation Report - Home](documentation/validation/html_validator_results_homepage.png)
+* ![HTML Validation Report - About](documentation/validation/html_validator_results_aboutpage.png)
+* ![HTML Validation Report - Events](documentation/validation/html_validator_results_eventspage.png)
+* ![HTML Validation Report - Contact](documentation/validation/html_validator_results_contactpage.png)
+* ![CSS Validation Report](documentation/validation/css_validator_results.png)
+
+
 ### User Story Test Cases
 1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
 There are two ways for a user to find this information, firstly there is the basic information on the home page in the events section, which provides the date, time and name of the venue. The user can then click on the more details button to access more information about the event. The user could also chose to client the events page from the navigation bar and go directly to the events page.
