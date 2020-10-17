@@ -2,7 +2,7 @@
   <a href="https://donnaib.github.io/dublin_intercambio/">Dublin Intercambio</a>
 </h1>
 
-![Dublin intercambio](documentation/additional_images/multi_device_view.jpg)
+![Dublin intercambio](documentation/additional_images/multi_device_view.png)
 
 [View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/dublin_intercambio/)
 
@@ -187,7 +187,9 @@ Screen shots of the validator results can be viewed below, as you can see there 
 * ![HTML Validation Report - Contact](documentation/validation/html_validator_results_contactpage.png)
 * ![CSS Validation Report](documentation/validation/css_validator_results.png)
 
-3. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users cases and that any functionality that was added worked as intented.
+3. All links were tested to ensure there were no broken links and that all links to external sites open in a new tab.
+
+4. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users cases and that any functionality that was added worked as intented.
 
 ### User Story Test Cases
 1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
