@@ -231,6 +231,13 @@ In addition to all the above testing I also checked my site with accessibilty to
 hero image text on the home page and the contact form. So I madea a decision to swap the color of this text to the red within the colour scheme as
 that scored higher on the accessibilty tests and was still within the agreed theme.
 
+### Bugs
+There were a few bugs here and there that I found during the testing process, mainly to do with responsiveness which were fixed by editing the Bootstrap cols and/or adding media queries.
+
+However, there was one interesting bug that I debugged with my mentor. There was some white space below the footer in all pages.  Both myself and my mentor were looking at the inspector to try to identify the style that was causing this. Initially we couldn't see anything, then I noticed a style was being applied from a style sheet called 'user agent stylesheet', it was adding a style of 'margin-block-end' so my mentor advised that I override that style in my stylesheet, which I did and it seemed to fix the issue.  However after the call when I was validating my CSS, I initially got an error saying 'margin-block-end' doesn't exist.  
+
+At this point I turned to the Slack community to ask for advice. A colleague in the community suggested I tried a simple 'margin' style rather than 'margin-block-end'.  I did that and thankfully it addressed the issue and passed through the validator.
+
 ## Deployment
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/DonnaIB/dublin_intercambio), the following steps were taken: 
@@ -280,7 +287,7 @@ The content of the site was written by myself but it was inspired and influenced
 * I refered to w3.org to assist with the styling of my bullet points on the the about page.
 * Thank you to JimLinx, Paul Loy & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention to a bug on the contact page that was subsequently fixed. 
 * I refered to AJ Greave's sample README as well as the Code Institute sample to help structure this README file.
-* Thank you to Mr_Bim_alumni in the Slack community for helping me debug a style issue in my footer and advice on very large screen sizes.
+* Thank you to Mr_Bim_alumni in the Slack community for helping me solve a style issue in my footer and advice on very large screen sizes.
 * A final thank to my mentor Aaron Sinnott who has advised and guided me through this milestone 1 project.
 
 
