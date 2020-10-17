@@ -61,7 +61,7 @@ Website owers goals:
 2. As a new visitor to the website, I want to get a sense of what the language exchange will be like.
 3. As a new visitor to the website, I want to ask to join the online event.
 4. As a returning visitor to the website, I want to easily remind myself where and when the events are.
-5. AS a returning visitor to the website, I want to aquire the details for the virtual event.
+5. As a returning visitor to the website, I want to aquire the details for the virtual event.
 
 
 ### Design (Wireframes and Mockups): 
@@ -180,7 +180,7 @@ I tested the site in the following ways:
 
 2. I also tested my code using the validator tools for both my HTML [W3C HTML Validator Tool](https://validator.w3.org/) and CSS [W3C CSS Validator Tool](https://validator.w3.org/). Running my code through these tools highlighted a few issues with syntax which were fixed at the time and pushed as bug fixes.
 
-Screen shots of the validator results can be viewed below.  As you can seee from the screen shot there was only one error detected.  I had discussed this point with my mentor previously and he advised me to add this particular style to overide a style that was being added by the user agent stylesheet that was adding.  Adding this class fixed the white space issue but is showing up as an error in the CSS validator [W3C CSS Validator Tool](https://validator.w3.org/).
+Screen shots of the validator results can be viewed below, as you can see there were no errors detected.
 
 ### HTML reports 
 * ![HTML Validation Report - Home](documentation/validation/html_validator_results_homepage.png)
@@ -189,22 +189,34 @@ Screen shots of the validator results can be viewed below.  As you can seee from
 * ![HTML Validation Report - Contact](documentation/validation/html_validator_results_contactpage.png)
 * ![CSS Validation Report](documentation/validation/css_validator_results.png)
 
+3. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users cases and that any functionality that was added worked as intented.
 
 ### User Story Test Cases
 1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
-There are two ways for a user to find this information, firstly there is the basic information on the home page in the events section, which provides the date, time and name of the venue. The user can then click on the more details button to access more information about the event. The user could also chose to client the events page from the navigation bar and go directly to the events page.
+There are two ways for a user to find this information, firstly there is the basic information on the home page in the events section, which provides the date, time and name of the venue. The user can then click on the more details button to access more information about the event. The user could also choose to click the events page from the navigation bar and go directly to the events page.
+
+![Test Case 1 screen shot](documentation/additional_images/user_test_case1.png)
 
 2. As a new visitor to the website, I want to get a sense of what the language exchange will be like.
-The imagery used through the site is intended to give the users a feel of the open and freindly sense of the live events.
+The imagery used through the site is intended to give the users a feel of the open and friendly sense of the live events.
+
+![Test Case 2 screen shot](documentation/additional_images/user_test_case2.png)
 
 3. As a new visitor to the website, I want to ask to join the online event.
-There is infomration on the events page that details how a user can join the events. In the case of an online event the user needs to contact Dublin Intercambio and there is a link from the events page through to the contact form.  Alternatively the user can chose to navigate directly to the contact page using the navigation bar and clicking on contact.
+There is information on the events page that details how a user can join the events. In the case of an online event the user needs to contact Dublin Intercambio and there is a link from the events page through to the contact form.  Alternatively the user can chose to navigate directly to the contact page using the navigation bar and clicking on contact.
+
+![Test Case 3 screen shot](documentation/additional_images/user_test_case3.png)
 
 4. As a returning visitor to the website, I want to easily remind myself where and when the events are.
 Having the event teasters, the basic information on the home page it allows users who are returning to the date, time and location at a glance.  Alternatively, they can chose events from the navigation menu and go directly to the events page.
 
+![Test Case 4 screen shot](documentation/additional_images/user_test_case1.png)
+
 5. As a returning visitor to the website, I want to aquire the details for the virtual event.
 A returning visitor may know that they have to contact Dublin Intercambio for joining details so can skip straight to the contact page to get in touch. Alternatively if they need reminding they can visit the events page and read the details on the virtual meeting events card.
+
+![Test Case 3 screen shot](documentation/additional_images/user_test_case3.png)
+
 
 ### Functionaly Test Cases
 
@@ -270,6 +282,7 @@ The content of the site was written by myself but was inspired and influenced by
 * Thank you to JimLinx, Paul Loy & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention
 to a bug on the contact page that was subsequently fixed. 
 * I refered to AJ Greave's sample README to help structure this README file.
+* Thank you to Mr_Bim_alumni in the Slack community for helping me debug a style issue in my footer.
 
 
 
