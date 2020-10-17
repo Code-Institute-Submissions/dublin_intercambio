@@ -500,3 +500,13 @@ footer {
     height: auto;
   }
 }
+
+@media only screen and (min-width: 3100px) {
+  #hero-text {
+    position: absolute;
+    top: 360px;
+    left: 1000px;
+    width: auto;
+    height: auto;
+  }
+}
