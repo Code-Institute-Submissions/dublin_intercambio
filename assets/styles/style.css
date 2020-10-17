@@ -22,7 +22,7 @@ a {
   color: #058e6e;
 }
 
-.container{
+.container {
   overflow: hidden;
 }
 /* ---------------------------------------- Navigation -------------------------------------*/
@@ -50,6 +50,10 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   border-bottom: 3px solid #f1bf00;
+}
+
+.container {
+  max-width: 1920px;
 }
 
 /* ---------------------------------------- Hero Image -------------------------------------*/
@@ -86,7 +90,8 @@ a {
   height: auto;
 }
 
-#hero-text h1, p {
+#hero-text h1,
+p {
   padding: 5px 15px;
   color: #fff;
 }
@@ -96,7 +101,6 @@ a {
   color: #fff;
   text-align: left;
 }
-
 
 .hero-p-first {
   margin-bottom: 0;
@@ -313,7 +317,7 @@ footer {
 }
 
 .social {
-    margin-block-end: auto;
+  margin: 0;
 }
 
 .fa {
@@ -478,11 +482,21 @@ footer {
 }
 
 @media only screen and (min-width: 2000px) {
-    #hero-text {
-        position: absolute;
-        top: 360px;
-        left: 250px;
-        width: auto;
-        height: auto;
+  #hero-text {
+    position: absolute;
+    top: 360px;
+    left: 400px;
+    width: auto;
+    height: auto;
+  }
 }
+
+@media only screen and (min-width: 2800px) {
+  #hero-text {
+    position: absolute;
+    top: 360px;
+    left: 600px;
+    width: auto;
+    height: auto;
+  }
 }
