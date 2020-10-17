@@ -7,20 +7,20 @@
 [View Dublin Intercambio in GitHub Pages](https://donnaib.github.io/dublin_intercambio/)
 
 
-*Note: This is a fictional organisation created for this milestone project.*
+*Note: This is a fictional organisation created for a Code Institute milestone project.*
 ## Introduction
 
-Dublin Intercambio is a not-for-profit organisation set up to facilitate learners of both Spanish and English to practise what their 
+Dublin Intercambio is a not-for-profit organisation set up to facilitate learners of both Spanish and English to practise their 
 new found language skills in a real life settings with native speakers. 
 
-Dublin Intercambio provides opportunites for people to get together in informal, relaxed settings, overcome the fear that many have 
-of speaking in their target language and meet like minded people.
+Dublin Intercambio provides opportunites for people to get together in informal, relaxed settings, to overcome the fear that many have 
+of speaking in their target language with meet like minded people.
 
 ## Scope 
 
 Create a simple, intuitive, and responsive website for Dublin Intercambio events. The site should be no more than 4 pages long and will 
 be a simple brochure website, providing information in a clear and structured that is easily understandable to users.  The structure should 
-adhere to convetion and be simple and intuitive, ensuring the user always knows, where they are, how they got there and how to get back to 
+adhere to convetion and be simple and intuitive, ensuring the user always knows where they are, how they got there and how to get back to 
 where they started.
 
 The design should create a warm and welcoming feel, creating the atmosphere that Dublin Intercambio pride themselves on at their live events.
@@ -43,7 +43,7 @@ Website owers goals:
 #### User stories
 
 ##### A typical user of this site would:
-* Has an interest in improving their level of Spanish or English
+* Have an interest in improving their level of Spanish or English
 * Live in the Dublin - or planning a trip to Dublin
 * Speak English (to some degree)
 
@@ -54,7 +54,7 @@ Website owers goals:
     * Is easy to navigate.
     * Has a warm, friendly and inviting feel to it.
     * Ensures the important information is easy to find and access.
-    * Encouraging users to attend the events and get involved.
+    * Encourages users to attend the events and get involved.
 
 ##### User stories
 1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
@@ -66,8 +66,7 @@ Website owers goals:
 
 ### Design (Wireframes and Mockups): 
 
-After coming up with the concept, mapping out the scope of the site, and working through the user stories and turned my attention to the layout. I began the process of creating 
-wireframes with good old fashioned pen and paper to get a very rough skeleton of the site to start giving form to the agreed function.
+After coming up with the concept, mapping out the scope of the site, and working through the user stories and turned my attention to the layout. I began the process of creating wireframes with good old fashioned pen and paper to get a very rough skeleton of the site to start giving form to the agreed function.
 
 With a basic outline I moved to Balsamiq to create more detailed Wireframes for the site. 
 
@@ -86,11 +85,10 @@ With a basic outline I moved to Balsamiq to create more detailed Wireframes for 
 ![Contact page wireframe](documentation/wireframes/contact.png)
 
 
-After creating the wireframes to create the structure, I moved on to creating mockups using powerpoint to focus on the look and feel of the site as this was
-an important element of the prject.
+After creating the wireframes to define the structure, I moved on to creating mockups using powerpoint to focus on the look and feel of the site as this was an important element of the prject.
 
 The inspiration for the color theme of the website was born from the combination of the warm and friendly atmosphere that was required and 
-also from the Spanish flag.  I wanted to harness the Spanish connection and influence with the project.   
+also from the colours of the Spanish flag.  I wanted to harness the Spanish connection and influence of the project.   
 
 While I am aware that yellow can sometimes be a problematic colour, it was an important element of the design due the fact that it is 
 a key colour of the Spansih flag. With this in mind special attention was given to testing the contract of the white text against the yellow
@@ -225,10 +223,11 @@ Events Teasers:
 2. Click the "details' button on the Friday event, verify that you are taken to the correct part of the events page, that is relevant to the Friday event.
 
 Contact form:
-1. Navigate to the "Contact" page
-2. Try to submit the empty form and verify that an error message about the required fields appears
-3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-4. Try to submit the form with all inputs valid and verify that is accepted. (Please note as this is a milestone 1 project, the form is not fullying working and therefore the data is not submitted)
+1. Navigate to the "Contact" page.
+2. Try to submit the empty form and verify that an error message about the required fields appears.
+3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+4. Try to submit the form with all inputs valid and verify that is accepted. (Please note as this is a milestone 1 project, the form is not fullying working and therefore the data is not submitted).
+
 
 ## Deployment
 
@@ -263,7 +262,7 @@ git clone https://github.com/DonnaIB/dublin_intercambio.git
 ## Credits
 
 ### Content
-The content of the site was written by myself but was inspired and influenced by the following sites:
+The content of the site was written by myself but it was inspired and influenced by the following sites:
 * [My language Exchange](https://www.mylanguageexchange.com/)
 * [I Will Teach You. Language](https://iwillteachyoualanguage.com/)
 
@@ -274,15 +273,15 @@ The content of the site was written by myself but was inspired and influenced by
 - Code for my navigation was adapted and cusomtised from a code snippet found in the Bootstrap documentation.
 
 ### Acknowledgements
-
 * My color scheme for this site was based on the colors in the Spanish flag and I used a colour scheme from [Scheme Color](https://www.schemecolor.com/spain-flag-colors.php), the specific color combination was created by user Keshav Naidu.
 * Thank you to Cormac from Tutor Support - who helped me with a styling issue with my nagivation.
 * Thank you to JymLinx in Slack for helping me with a positioning issue on my home page.
-* I refered to w3.org to assist with the styling of my bullet points.
+* I refered to w3.org to assist with the styling of my bullet points on the the about page.
 * Thank you to JimLinx, Paul Loy & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention
 to a bug on the contact page that was subsequently fixed. 
-* I refered to AJ Greave's sample README to help structure this README file.
-* Thank you to Mr_Bim_alumni in the Slack community for helping me debug a style issue in my footer.
+* I refered to AJ Greave's sample README as well as the Code Institute sample to help structure this README file.
+* Thank you to Mr_Bim_alumni in the Slack community for helping me debug a style issue in my footer and advice on very large screen sizes.
+* A final thank to my mentor Aaron Sinnott who has advised and guided me through this milestone 1 project.
 
 
 
