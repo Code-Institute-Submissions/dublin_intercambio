@@ -9,7 +9,6 @@
 
 *Note: This is a fictional organisation created for a Code Institute milestone project.*
 ## Introduction
-
 Dublin Intercambio is a not-for-profit organisation set up to facilitate learners of both Spanish and English to practise their 
 new found language skills in a real life settings with native speakers. 
 
@@ -36,7 +35,6 @@ Website owers goals:
 * Build awareness of the events.
 * Increase attendance at the events.
 * Create a friendly, relaxed and inviting feel, as attending a language exchange event for the first time can be daunting.
-
  
 ## UX
 
@@ -65,7 +63,6 @@ Website owers goals:
 
 
 ### Design (Wireframes and Mockups): 
-
 After coming up with the concept, mapping out the scope of the site, and working through the user stories and turned my attention to the layout. I began the process of creating wireframes with good old fashioned pen and paper to get a very rough skeleton of the site to start giving form to the agreed function.
 
 With a basic outline I moved to Balsamiq to create more detailed Wireframes for the site. 
