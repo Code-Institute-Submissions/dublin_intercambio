@@ -44,7 +44,7 @@ Website owers goals:
 
 ##### A typical user of this site would:
 * Have an interest in improving their level of Spanish or English
-* Live in the Dublin - or planning a trip to Dublin
+* Live in the Dublin (or planning a trip to Dublin)
 * Speak English (to some degree)
 
 ##### This project is the best way to help them achieve these things because:
@@ -93,7 +93,6 @@ also from the colours of the Spanish flag.  I wanted to harness the Spanish conn
 While I am aware that yellow can sometimes be a problematic colour, it was an important element of the design due the fact that it is 
 a key colour of the Spansih flag. With this in mind special attention was given to testing the contract of the white text against the yellow
 backgrounds to ensure readability. This was discussed at length with my tutor at all stages of this project to ensure the right balance was met.
-
 
 ### Mockups
 ![Mobile view mockup](documentation/mockups/mobile_view.png)
@@ -171,7 +170,8 @@ home page fo the site.
 - **Popper,js** reference Javascript needed for the responsive navbar.
 - **TinyPNG** was used to reduce the size of the images to help with load time.
 
-## Testing 
+## Testing
+
 I tested the site in the following ways:
 
 1. Initially I used the inspector tool to test the site in all the screen sizes and devices available in the Chrome developer tool.  In addition to this I also tested it on live devices, including but not limted to iPhone, iPad, MacBook Pro, MotoG7. 
@@ -180,7 +180,7 @@ I tested the site in the following ways:
 
 Screen shots of the validator results can be viewed below, as you can see there were no errors detected.
 
-### HTML reports 
+### Validation reports 
 * ![HTML Validation Report - Home](documentation/validation/html_validator_results_homepage.png)
 * ![HTML Validation Report - About](documentation/validation/html_validator_results_aboutpage.png)
 * ![HTML Validation Report - Events](documentation/validation/html_validator_results_eventspage.png)
@@ -215,9 +215,7 @@ A returning visitor may know that they have to contact Dublin Intercambio for jo
 
 ![Test Case 3 screen shot](documentation/additional_images/user_test_case3.png)
 
-
 ### Functionaly Test Cases
-
 Events Teasers:
 1. On a device with a screen size of 768px or smaller, navigate to the Home page of the site, scroll down to see the event section with the yellow circular event teasers.
 2. Click the "details' button on the Friday event, verify that you are taken to the correct part of the events page, that is relevant to the Friday event.
@@ -228,6 +226,10 @@ Contact form:
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 4. Try to submit the form with all inputs valid and verify that is accepted. (Please note as this is a milestone 1 project, the form is not fullying working and therefore the data is not submitted).
 
+### Accessibility
+In addition to all the above testing I also checked my site with accessibilty tools in the inspector. While the mockup's featured white text on the transparent yellow backgrounds and my mentor believed there to be enough contract, it was still flagged as not a good contract specifically on the 
+hero image text on the home page and the contact form. So I madea a decision to swap the color of this text to the red within the colour scheme as
+that scored higher on the accessibilty tests and was still within the agreed theme.
 
 ## Deployment
 
@@ -243,7 +245,6 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 At the time of submission, the Development Branch and Master Branch were identical. 
 
 ### How to run this project locally
-
 To clone this project from GitHub:
 1. Follow this link to the [Project GitHub repository](https://github.com/DonnaIB/dublin_intercambio).
 2. Under the repository name, click 'Code'
@@ -277,8 +278,7 @@ The content of the site was written by myself but it was inspired and influenced
 * Thank you to Cormac from Tutor Support - who helped me with a styling issue with my nagivation.
 * Thank you to JymLinx in Slack for helping me with a positioning issue on my home page.
 * I refered to w3.org to assist with the styling of my bullet points on the the about page.
-* Thank you to JimLinx, Paul Loy & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention
-to a bug on the contact page that was subsequently fixed. 
+* Thank you to JimLinx, Paul Loy & Richard K in the Slack community for taking the time to review this site and offering some helpful information on how the site looks in android devices as well as drawing my attention to a bug on the contact page that was subsequently fixed. 
 * I refered to AJ Greave's sample README as well as the Code Institute sample to help structure this README file.
 * Thank you to Mr_Bim_alumni in the Slack community for helping me debug a style issue in my footer and advice on very large screen sizes.
 * A final thank to my mentor Aaron Sinnott who has advised and guided me through this milestone 1 project.
