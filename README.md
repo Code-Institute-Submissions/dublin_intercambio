@@ -178,15 +178,15 @@ I tested the site in the following ways:
 Screen shots of the validator results can be viewed below, as you can see there were no errors detected.
 
 ### Validation reports 
-* ![HTML Validation Report - Home](documentation/validation/html_validator_results_homepage.png)
-* ![HTML Validation Report - About](documentation/validation/html_validator_results_aboutpage.png)
-* ![HTML Validation Report - Events](documentation/validation/html_validator_results_eventspage.png)
-* ![HTML Validation Report - Contact](documentation/validation/html_validator_results_contactpage.png)
-* ![CSS Validation Report](documentation/validation/css_validator_results.png)
+![HTML Validation Report - Home](documentation/validation/html_validator_results_homepage.png)
+![HTML Validation Report - About](documentation/validation/html_validator_results_aboutpage.png)
+![HTML Validation Report - Events](documentation/validation/html_validator_results_eventspage.png)
+![HTML Validation Report - Contact](documentation/validation/html_validator_results_contactpage.png)
+![CSS Validation Report](documentation/validation/css_validator_results.png)
 
 3. All links were tested to ensure there were no broken links and that all links to external sites open in a new tab.
 
-4. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users cases and that any functionality that was added worked as intented.
+4. In addition to testing with the inspector tool, real devices and validation tools, I also work through a series of test cases, to ensure that the site met the users stories and that any functionality that was added worked as intented.
 
 ### User Story Test Cases
 1. As a new visitor to the website, I want to know where and when the language exchange events are taking place.
@@ -217,7 +217,8 @@ A returning visitor may know that they have to contact Dublin Intercambio for jo
 ### Functionaly Test Cases
 Events Teasers:
 1. On a device with a screen size of 768px or smaller, navigate to the Home page of the site, scroll down to see the event section with the yellow circular event teasers.
-2. Click the "details' button on the Friday event, verify that you are taken to the correct part of the events page, that is relevant to the Friday event.
+2. Click the "details' button on the Monday event, verify that you are taken to the correct part of the events page, that is relevant to the Monday event.
+3. Repeat the above steps for the Wednesday and Friday events.
 
 Contact form:
 1. Navigate to the "Contact" page.
@@ -227,15 +228,15 @@ Contact form:
 
 ### Accessibility
 In addition to all the above testing I also checked my site with accessibilty tools in the inspector. While the mockup's featured white text on the transparent yellow backgrounds and my mentor believed there to be enough contract, it was still flagged as not a good contract specifically on the 
-hero image text on the home page and the contact form. So I madea a decision to swap the color of this text to the red within the colour scheme as
+hero image text on the home page and the contact form. So I made a decision to swap the color of this text to the red within the colour scheme as
 that scored higher on the accessibilty tests and was still within the agreed theme.
 
 ### Bugs
 There were a few bugs here and there that I found during the testing process, mainly to do with responsiveness which were fixed by editing the Bootstrap cols and/or adding media queries.
 
-However, there was one interesting bug that I debugged with my mentor. There was some white space below the footer in all pages.  Both myself and my mentor were looking at the inspector to try to identify the style that was causing this. Initially we couldn't see anything, then I noticed a style was being applied from a style sheet called 'user agent stylesheet', it was adding a style of 'margin-block-end' so my mentor advised that I override that style in my stylesheet, which I did and it seemed to fix the issue.  However after the call when I was validating my CSS, I initially got an error saying 'margin-block-end' doesn't exist.  
+However, there was one interesting bug that I debugged on a call with my mentor. There was some white space below the footer in all pages.  Both myself and my mentor were looking at the inspector to try to identify the style that was causing this. Initially we couldn't see anything, then I noticed a style was being applied from a style sheet called 'user agent stylesheet', it was adding a style of 'margin-block-end' so my mentor advised that I override that style in my stylesheet, which I did and it seemed to fix the issue.  However after the call when I was validating my CSS, I initially got an error saying 'margin-block-end' doesn't exist.  
 
-At this point I turned to the Slack community to ask for advice. A colleague in the community suggested I tried a simple 'margin' style rather than 'margin-block-end'.  I did that and thankfully it addressed the issue and passed through the validator.
+At this point I turned to the Slack community to ask for advice. A colleague in the community suggested I try a simple 'margin' style rather than 'margin-block-end'.  That addressed the issue and passed through the validator.
 
 ## Deployment
 
