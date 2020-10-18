@@ -106,7 +106,7 @@ backgrounds to ensure readability. This was discussed at length with my tutor at
 
 ![Contact page mockup](documentation/mockups/contact.png)
 
-During the build I stuck closely to the above wireframes and mockups, only make small adjustments here and there to colour or layout, to 
+During the build I stuck closely to the above wireframes and mockups, only making small adjustments here and there to colour or layout, to 
 optimise the site.
 
 ## Features
