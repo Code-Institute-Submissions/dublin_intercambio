@@ -279,6 +279,7 @@ The content of the site was written by myself but it was inspired and influenced
 
 ### Code
 - Code for my navigation was adapted and cusomtised from a code snippet found in the Bootstrap documentation.
+- Code for my footer was written by me but was inspired by the footer in the Love Running project.
 
 ### Acknowledgements
 * My color scheme for this site was based on the colors in the Spanish flag and I used a colour scheme from [Scheme Color](https://www.schemecolor.com/spain-flag-colors.php), the specific color combination was created by user Keshav Naidu.
